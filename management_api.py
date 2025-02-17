@@ -11,7 +11,7 @@
 """
 .SYNOPSIS Retrieves a message trace report from the Office 365 Reporting Web Service.
 
-.DESCRIPTION This script demonstrates how to retrieve a message trace report from the Office 365 Reporting Web Service. Implements OAuth via auth code only (certificate auth not yet implemented, basic auth is not supported). Not all parameters available in the API are implemented, this script is purely for testing. 
+.DESCRIPTION This script allows you to interact with the Office 365 Management API.  You must register your application in Azure AND grant admin consent prior to use.
 For application registration instructions, please see https://learn.microsoft.com/en-us/previous-versions/office/developer/o365-enterprise-developers/jj984325(v=office.15)#register-your-application-in-azure-ad
 
 Special thanks to David Barrett for the inspiration on this https://github.com/David-Barrett-MS/PowerShell/blob/main/Office%20365%20Management%20API/Test-ManagementActivityAPI.ps1
