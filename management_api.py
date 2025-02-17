@@ -1,3 +1,21 @@
+# By Andrei Epure, Microsoft Ltd. 2025. Use at your own risk. No warranties are given.
+# DISCLAIMER:
+# THIS CODE IS SAMPLE CODE. THESE SAMPLES ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
+# MICROSOFT FURTHER DISCLAIMS ALL IMPLIED WARRANTIES INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR OF FITNESS FOR
+# A PARTICULAR PURPOSE. THE ENTIRE RISK ARISING OUT OF THE USE OR PERFORMANCE OF THE SAMPLES REMAINS WITH YOU. IN NO EVENT SHALL
+# MICROSOFT OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS,
+# BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THE
+# SAMPLES, EVEN IF MICROSOFT HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION
+# OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+"""
+.SYNOPSIS Retrieves a message trace report from the Office 365 Reporting Web Service.
+
+.DESCRIPTION This script demonstrates how to retrieve a message trace report from the Office 365 Reporting Web Service. Implements OAuth via auth code only (certificate auth not yet implemented, basic auth is not supported). Not all parameters available in the API are implemented, this script is purely for testing. 
+For application registration instructions, please see https://learn.microsoft.com/en-us/previous-versions/office/developer/o365-enterprise-developers/jj984325(v=office.15)#register-your-application-in-azure-ad
+
+Special thanks to David Barrett for the inspiration on this https://github.com/David-Barrett-MS/PowerShell/blob/main/Office%20365%20Management%20API/Test-ManagementActivityAPI.ps1
+"""
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 from tkcalendar import DateEntry
