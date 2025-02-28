@@ -9,7 +9,7 @@
 # OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
 
 """
-.SYNOPSIS Retrieves a message trace report from the Office 365 Reporting Web Service.
+.SYNOPSIS Retrieves logs from the Office 365 Management API
 
 .DESCRIPTION This script allows you to interact with the Office 365 Management API.  You must register your application in Azure AND grant admin consent prior to use.
 For application registration instructions, please see https://learn.microsoft.com/en-us/previous-versions/office/developer/o365-enterprise-developers/jj984325(v=office.15)#register-your-application-in-azure-ad
